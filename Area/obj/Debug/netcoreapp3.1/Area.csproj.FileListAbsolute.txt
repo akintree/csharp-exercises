@@ -1,0 +1,11 @@
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\obj\Debug\netcoreapp3.1\Area.csprojAssemblyReference.cache
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\obj\Debug\netcoreapp3.1\Area.AssemblyInfoInputs.cache
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\obj\Debug\netcoreapp3.1\Area.AssemblyInfo.cs
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.exe
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.deps.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.runtimeconfig.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.runtimeconfig.dev.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.dll
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\bin\Debug\netcoreapp3.1\Area.pdb
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\obj\Debug\netcoreapp3.1\Area.dll
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\Area\obj\Debug\netcoreapp3.1\Area.pdb
