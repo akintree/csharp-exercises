@@ -1,0 +1,11 @@
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.exe
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.deps.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.runtimeconfig.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.runtimeconfig.dev.json
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.dll
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\bin\Debug\netcoreapp3.1\CountingCharacters.pdb
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\obj\Debug\netcoreapp3.1\CountingCharacters.csprojAssemblyReference.cache
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\obj\Debug\netcoreapp3.1\CountingCharacters.AssemblyInfoInputs.cache
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\obj\Debug\netcoreapp3.1\CountingCharacters.AssemblyInfo.cs
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\obj\Debug\netcoreapp3.1\CountingCharacters.dll
+C:\Users\treek\Desktop\launchcode_homework\akintree\csharp-exercises\CountingCharacters\obj\Debug\netcoreapp3.1\CountingCharacters.pdb
