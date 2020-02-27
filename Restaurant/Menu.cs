@@ -6,8 +6,28 @@ namespace Restaurant
 {
     public class Menu
     {
-        public List<MenuItem> items = new List<MenuItem>();
-        public DateTime timeUpdated { get; set; }
+        public static List<MenuItem> Items = new List<MenuItem>();
 
+        public static void AddToMenu(MenuItem MenuContent)
+        {
+            Items.Add(MenuContent);
+        }
+
+        public static void RemoveFromMenu(MenuItem ToDelete)
+        {
+            Items.Remove(ToDelete);
+        }
+        public static void PrintMenu()
+        {
+            foreach (object MenuItem in Items)
+            {
+                Console.WriteLine(MenuItem.ToString());
+            }
+            if (Items.Count < 1)
+            {
+                Console.WriteLine("Menu in progress.");
+            } 
+        }
+        
     }
 }
