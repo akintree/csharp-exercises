@@ -4,7 +4,7 @@ using System.Text;
 
 namespace QuizTime
 {
-    class Checkbox : Question
+    class SubjectiveCheckbox : Question
     {
         public override string prompt { get; set; }
         public override List<string> choices { get; set; }
@@ -14,6 +14,7 @@ namespace QuizTime
         {
             bool correct;
             int count = 0;
+
             foreach(string option in rightAnswer)
             {
                 if (response.Contains(option))
@@ -22,7 +23,7 @@ namespace QuizTime
                 }
             }
 
-            if (count == rightAnswer.Count)
+            if (count > 0)
             {
                 correct = true;
             } else

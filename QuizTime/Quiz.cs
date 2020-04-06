@@ -6,32 +6,44 @@ namespace QuizTime
 {
     class Quiz
     {
-        List<Question> QuizBody = new List<Question>();
-
-        public void AddQuestion(Question NewQuestion)
+        public static List<Question> QuizBody = new List<Question>();
+        static int score = 0;
+        public static void AddQuestion(Question NewQuestion)
         {
             QuizBody.Add(NewQuestion);
         }
-        public static void Print(List<Dictionary<string, string>> quizList)
+        public static void Print()
         {
-            Console.WriteLine("Hello?");
-            foreach(Dictionary<string, string> question in quizList)
+            foreach(Question question in QuizBody)
             {
-                Console.WriteLine("Test");
-                Console.WriteLine(question.ContainsKey("Question"));
-                foreach(KeyValuePair<string, string> row in question)
+                Console.WriteLine("\n" + question.prompt);
+                foreach(string choice in question.choices)
                 {
-                    Console.WriteLine("Help");
-                    Console.WriteLine(row.Key + " - " + row.Value);
-                    //string response = Console.ReadLine().ToString();
+                    Console.WriteLine(choice);
                 }
-                
+                string response = Console.ReadLine().ToString().ToLower();
+                Console.WriteLine("Score: " + Grade(response) + "/" + QuizBody.Count + "");
             }
+            if(QuizBody.Count < 1)
+            {
+                Console.WriteLine("Quiz under construction");
+            }
+                
+        }
+
+        public static int Grade(string answer)
+        {
+            bool correct;
+            foreach(Question question in QuizBody)
+            {      
+                correct = question.isCorrect(answer, question.correctAnswer);
+                if (correct)
+                {
+                    score += 1;
+                }
+            }
+            return score;
         }
         
-        public void Grade(string answer)
-        {
-            
-        }
     }
 }
